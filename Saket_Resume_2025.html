@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saket Gupta - Full-Stack & Cloud Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f1a;
+      --card: #17172c;
+      --text: #e0e0ff;
+      --accent: #00d4ff;
+      --light-text: #b0b0d0;
+    }
+    [data-theme="light"] {
+      --bg: #f8f9ff;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --accent: #0066ff;
+      --light-text: #555;
+    }
+    body {margin:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;transition:all 0.4s;}
+    .resume {
+      max-width:920px;margin:30px auto;background:var(--card);padding:50px 60px;border-radius:16px;
+      box-shadow:0 20px 60px rgba(0,0,0,0.4);position:relative;transition:all 0.4s;
+    }
+    .controls {
+      position:absolute;top:20px;right:20px;display:flex;gap:12px;z-index:10;
+    }
+    button {
+      background:var(--accent);color:#000;border:none;padding:10px 16px;border-radius:8px;
+      font-weight:600;cursor:pointer;transition:0.3s;box-shadow:0 4px 15px rgba(0,212,255,0.3);
+    }
+    button:hover {transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,212,255,0.5);}
+    h1 {font-size:48px;margin:0 0 10px;text-align:center;background:linear-gradient(90deg,#00d4ff,#0066ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+    .contact {text-align:center;font-size:15px;color:var(--light-text);margin-bottom:40px;}
+    .contact a {color:var(--accent);text-decoration:none;}
+    section {margin-top:40px;}
+    h2 {
+      font-size:24px;color:var(--accent);border-bottom:3px solid var(--accent);
+      padding-bottom:8px;margin-bottom:18px;display:inline-block;
+    }
+    ul {padding-left:22px;}
+    li {margin-bottom:10px;line-height:1.7;}
+    .project {
+      background:rgba(0,212,255,0.08);padding:20px;border-radius:12px;
+      border-left:5px solid var(--accent);margin-bottom:25px;
+    }
+    .project h3 {margin:0 0 12px;color:var(--accent);font-size:20px;}
+    .footer {
+      text-align:center;margin-top:60px;padding-top:30px;border-top:1px solid rgba(255,255,255,0.1);
+      color:var(--light-text);font-size:14px;
+    }
+    @media print {
+      body, .resume {background:white !important;color:black !important;}
+      .controls, button {display:none !important;}
+      a {color:blue !important;}
+    }
+  </style>
+</head>
+<body>
+
+<div class="resume">
+  <div class="controls">
+    <button onclick="document.documentElement.setAttribute('data-theme', 
+      document.documentElement.getAttribute('data-theme')==='light' ? 'dark' : 'light')">
+      Light/Dark Mode
+    </button>
+    <button onclick="window.print()">Download PDF</button>
+  </div>
+
+  <h1>Saket Gupta</h1>
+  <div class="contact">
+    +91 9113574560 | saketg0210@gmail.com <br/>
+    LinkedIn: <a href="https://www.linkedin.com/in/saket-gupta97">linkedin.com/in/saket-gupta97</a> | 
+    GitHub: <a href="https://github.com/saketg0210">github.com/saketg0210</a> |
+    Portfolio: <a href="https://saketg0210.github.io/saket-portfolio">saketg0210.github.io/saket-portfolio</a>
+  </div>
+
+  <section>
+    <h2>Career Objective</h2>
+    <p>Passionate Junior Full-Stack & Cloud Developer skilled in React.js, Node.js, MongoDB, and AWS. Quick learner eager to build scalable, secure web applications and contribute to innovative engineering teams.</p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <table style="width:100%;border-collapse:collapse;">
+      <tr>
+        <td style="width:50%;vertical-align:top;">
+          <ul>
+            <li>HTML5, CSS3, JavaScript (ES6+)</li>
+            <li>React.js, Node.js, Express.js</li>
+            <li>MongoDB, SQL</li>
+            <li>Java Core</li>
+          </ul>
+        </td>
+        <td style="vertical-align:top;">
+          <ul>
+            <li>AWS (S3, CloudWatch, EC2, IAM, RDS)</li>
+            <li>Linux, Git, Jira</li>
+            <li>JWT, REST APIs, CI/CD</li>
+            <li>Troubleshooting & Collaboration</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Oracle Cloud Infrastructure (OCI) Foundations – Race to Certification 2025</li>
+      <li>AWS re/Start Graduate – EC2, IAM, S3, RDS, CloudWatch (Jan–Apr 2024)</li>
+      <li>SQL Masterclass: SQL for Data Analytics</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Online Food Delivery Web App (Full-Stack MERN)</h3>
+      <ul>
+        <li>Built complete food ordering platform with user & admin modules using HTML, CSS, JavaScript, Node.js, Express, MongoDB</li>
+        <li>Features: cart system, live location sharing (Geolocation API), order history, JWT-secured admin dashboard</li>
+        <li>Real-time order analytics, responsive UI, form validation</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>CloudResume Challenge – React + AWS S3 + CloudWatch</h3>
+      <ul>
+        <li>Developed interactive resume site with visitor counter & to-do list using React.js</li>
+        <li>Hosted on AWS S3 (Free Tier) with CloudWatch access logging</li>
+        <li>Live: <a href="https://saketg0210.github.io/cloud-resume-free/">saketg0210.github.io/saket-portfolio</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <h3 style="color:var(--accent);margin:20px 0 10px;font-size:20px;">
+      Junior Web Developer – Indegene, Bangalore <small>(Feb 2024 – Present)</small>
+    </h3>
+    <ul>
+      <li>Developed and maintained client-facing web applications using React.js</li>
+      <li>Managed deployments across dev → UAT → production using CI/CD pipelines</li>
+      <li>Collaborated via Jira with QA and content teams</li>
+      <li>Monitored live sites using AWS CloudWatch</li>
+    </ul>
+  </section>
+
+  <div class="footer">
+    Live Resume • Dark Mode Enabled • Click "Download PDF" to save
+  </div>
+</div>
+
+</body>
+</html>
