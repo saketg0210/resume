@@ -99,7 +99,6 @@ Always eager to build scalable web applications and learn modern technologies.
 - Built & managed site pages across modules  
 - Collaborated with QA and content teams via **Jira**  
 - Supported deployment across **Dev → UAT → Prod**  
-- Monitored production sites using **AWS CloudWatch**
 
 ---
 
