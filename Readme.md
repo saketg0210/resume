@@ -5,79 +5,108 @@ Live Interactive Resume (Dark Mode)
 • Source: github.com/saketg0210/resume
 
 
-Saket Gupta
+# 📄 Saket Gupta – Resume
 
-📞 +91 9113574560
-📧 saketg0210@gmail.com
+This repository hosts my interactive resume built using HTML, CSS, and JavaScript.  
+It is also deployed using **GitHub Pages** for easy access.
 
-🔗 LinkedIn: linkedin.com/in/saket-gupta97
-🔗 GitHub: github.com/saketg0210
-🌐 Portfolio: https://saketg0210.github.io/resume/
+---
 
-🎯 Career Objective
+## 🔗 Live Resume
+👉 **https://saketg0210.github.io/resume/**
 
-Passionate Junior Full-Stack & Cloud Developer skilled in React.js, Node.js, MongoDB, and AWS. A fast learner eager to build scalable, secure, and user-centric web applications while contributing to modern engineering teams.
+---
 
-🛠️ Technical Skills
+## 👨‍💻 About Me
+Passionate **Full-Stack & Cloud Developer** with expertise in:
+- React.js, Node.js, MongoDB  
+- AWS Cloud services  
+- Sitecore CMS (page structure, components, content operations)
 
-Frontend: HTML5, CSS3, JavaScript (ES6+), React.js
+Always eager to build scalable web applications and learn modern technologies.
 
-Backend: Node.js, Express.js
+---
 
-Databases: MongoDB, SQL
+## 🛠️ Technical Skills
 
-Programming: Java Core
+### **Frontend**
+- HTML5, CSS3, JavaScript (ES6+)
+- React.js  
+- Responsive UI Design  
 
-Cloud: AWS (S3, CloudWatch, EC2, IAM, RDS), OCI Fundamentals
+### **Backend**
+- Node.js, Express.js  
+- REST APIs  
+- JWT Authentication  
 
-CMS: Sitecore CMS (Page structure, component creation, content operations)
+### **Databases**
+- MongoDB  
+- SQL  
 
-Tools: Linux, Git, Jira
+### **Cloud**
+- AWS: EC2, S3, RDS, IAM, CloudWatch  
+- Oracle Cloud Infrastructure (OCI) – Foundations  
 
-Other: JWT, REST APIs, CI/CD, Troubleshooting, Collaboration
+### **CMS**
+- **Sitecore CMS**  
+  - Page structure  
+  - Component creation  
+  - Templates & layout building  
+  - Content authoring & publishing  
 
-📜 Certifications
+### **Tools & Others**
+- Git, Linux  
+- Jira  
+- CI/CD  
+- Troubleshooting & team collaboration  
 
-Oracle Cloud Infrastructure (OCI) Foundations – Race to Certification 2025
+---
 
-AWS re/Start Graduate – EC2, IAM, S3, RDS, CloudWatch (Jan–Apr 2024)
+## 🎓 Certifications
+- **OCI Foundations** – Race to Certification 2025  
+- **AWS re/Start Graduate** (EC2, IAM, S3, RDS, CloudWatch)  
+- **SQL Masterclass: SQL for Data Analytics**
 
-SQL Masterclass: SQL for Data Analytics
+---
 
-🚀 Projects
-🍔 Online Food Delivery Web App (Full-Stack MERN)
+## 🚀 Projects
 
-Built full food ordering platform with user & admin modules using HTML, CSS, JavaScript, Node.js, Express, MongoDB
+### 🍔 **Online Food Delivery Web App (MERN Stack)**
+- Built full food ordering platform with user & admin modules  
+- Features:  
+  - Cart system  
+  - Order history  
+  - JWT-secured admin login  
+  - Live location sharing (Geolocation API)  
+  - Real-time order analytics  
+- Tech: HTML, CSS, JavaScript, Node.js, Express, MongoDB  
 
-Implemented cart system, live location sharing (Geolocation API), order history, and JWT-secured admin dashboard
+---
 
-Added real-time analytics, responsive UI, and proper form validation
+### ☁️ **Cloud Resume Challenge – React + AWS**
+- Developed interactive resume site with visitor counter & to-do list  
+- Hosted using **AWS S3** + **CloudWatch logs**  
+- **Live:** https://saketg0210.github.io/resume/
 
-☁️ CloudResume Challenge – React + AWS S3 + CloudWatch
+---
 
-Developed interactive resume site with visitor counter and to-do list using React.js
+## 💼 Experience
 
-Hosted on AWS S3 (Free Tier) with CloudWatch access logging
+### **Junior Web Developer – Indegene, Bangalore**  
+**Feb 2024 – Present**
+- Worked extensively with **Sitecore CMS**  
+- Created **components, templates, content layouts**  
+- Built & managed site pages across modules  
+- Collaborated with QA and content teams via **Jira**  
+- Supported deployment across **Dev → UAT → Prod**  
+- Monitored production sites using **AWS CloudWatch**
 
-Live: https://saketg0210.github.io/resume/
+---
 
-💼 Experience
-Junior Web Developer – Indegene, Bangalore
+## 📬 Contact
+📞 **+91 9113574560**  
+📧 **saketg0210@gmail.com**  
+🔗 **LinkedIn:** https://linkedin.com/in/saket-gupta97  
+🔗 **GitHub:** https://github.com/saketg0210
 
-Feb 2024 – Present
-
-Worked extensively on Sitecore CMS, building and structuring pages for enterprise clients
-
-Created and configured components, templates, and content layouts within Sitecore
-
-Integrated front-end elements into Sitecore pages while ensuring responsiveness and consistency
-
-Collaborated closely with QA, content, and digital teams through Jira
-
-Supported deployments across dev → UAT → production through internal CI/CD workflows
-
-Monitored live websites and user interactions using AWS CloudWatch
-
-🌐 Live Interactive Resume
-
-🔗 https://saketg0210.github.io/resume/
+---
